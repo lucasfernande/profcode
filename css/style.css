@@ -171,3 +171,47 @@ section.planos > div.anual > h2 {
     color: white;
     background-image: linear-gradient(to right, var(--cor-anual));
 }
+
+main form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+main form > label {
+    margin: 10px 0;
+}
+
+main form > input {
+    height: 20px;
+    padding: 10px;
+    border: 1px solid var(--cor-bordas)
+}
+
+main form > textarea {
+    padding: 5px;
+}
+
+main form > input#btnEnviar {
+    font: bold 1em 'Comfortaa';
+    padding: 20px;
+    background-color: white;
+    color: black;
+    align-self: flex-end;
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+main form > input#btnEnviar[value="Enviar"] {
+    line-height: 0px;
+}
+
+main form > input#btnEnviar:hover {
+    background-color: black;
+    color: white;
+    transition: .25s;
+    cursor: pointer;
+}
