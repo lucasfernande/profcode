@@ -191,6 +191,7 @@ main form > input {
 
 main form > textarea {
     padding: 5px;
+    resize: none;
 }
 
 main form > input#btnEnviar {
