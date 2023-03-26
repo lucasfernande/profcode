@@ -82,19 +82,23 @@ main section.audio {
     padding: 10px;
 }
 
+main h3.titulo-video {
+    text-align: center;
+    margin-top: 5px;
+}
+
 main section.video {
     position: relative;
-    text-align: center;
-    height: 400px;
-    margin-top: 10px;
+    padding: 20px;
+    padding-bottom: 53%;
 }
 
 main section.video > iframe {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    height: 300px;
-    transform: translate(-50%, -50%);
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 section.planos {
